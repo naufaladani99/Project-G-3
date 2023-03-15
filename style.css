@@ -16,16 +16,13 @@ body {
   margin-top: 10px;
   margin-bottom: 20px;
 }
-.header {
-  /* height: 45px; */
-  width: 100%;
-  position: fixed;
-  top: 0;
-  z-index: 10;
-  opacity: 1;
-}
 
 .header {
+  top: 0;
+  height: 45px;
+  position: fixed;
+  z-index: 10;
+  opacity: 1;
   width: 100%;
   background-color: #0a0c0f;
   color: #fff;
@@ -108,6 +105,9 @@ ul {
   font-family: sans-serif;
   font-size: 16px;
 }
+.container {
+  margin-top: 10px;
+}
 a:hover {
   color: white;
   text-decoration: none;
@@ -155,9 +155,17 @@ a:active {
   left: 150px;
   top: 15px;
 }
+/* .bulat { */
+/* color: aqua; */
+/* height: 50px; */
+/* width: 50px; */
+/* background-color: chartreuse; */
+/* display: none; */
+/* } */
 
 .judul {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+  margin-left: 5px;
 }
 
 /* body */
@@ -192,7 +200,7 @@ a:active {
   grid-template-columns: repeat(3, 1fr); */
 }
 .judul {
-  /* top: 44%; */
+  /* top: 4%; */
   /* width: 100%; */
   /* right: 20px; */
   color: rgb(255, 255, 255);
@@ -208,11 +216,13 @@ img {
 .title h1 {
   font-size: 25px;
   font-weight: normal;
+  margin-bottom: 20px;
 }
 
 .deskripsi-film {
   position: absolute;
-  bottom: 85px;
+  bottom: 30px;
+  /* tanda */
   width: 100%;
   color: rgb(255, 254, 254);
   margin-left: 10px;
@@ -269,22 +279,25 @@ textarea {
 
 /* footer */
 .message-container {
-  width: fit-content;
+  /* problemmmmmmmmmmmmmmmmmmmmmmmm */
+  /* width: fit-content; */
   text-align: center;
   font-family: sans-serif;
   font-size: 20px;
 }
 
 .deskripsi {
-  width: 550px;
+  /* problemmmmmmmmmmmmmmmmmmmmmmmm */
+  /* width: auto; */
   text-align: justify;
   font-family: "Quicksand", sans-serif;
-  padding-top: 50px;
+  /* padding-top: 50px; */
   margin-right: 100px;
 }
 
 .footer {
-  display: flex;
+  /* problemmmmmmmmmmmmmmmmmmmmmmmm */
+  /* display: flex; */
   flex-flow: row wrap;
   padding: 30px 30px 20px 30px;
   color: #ffffff;
@@ -294,21 +307,9 @@ textarea {
 
 .footer > * {
   flex: 1 100%;
-  display: flex;
+  /* problemmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+  /* display: flex; */
 }
-
-/* .footer__logo {
-  font-family: "sans-serif";
-  font-weight: 400;
-  text-transform: uppercase;
-  font-size: 1.5rem;
-} */
-/* 
-.footer__addr h2 {
-  margin-top: 1.3em;
-  font-size: 15px;
-  font-weight: 400;
-} */
 
 .nav__title {
   font-weight: 40px;
@@ -317,7 +318,7 @@ textarea {
   margin-bottom: 20px;
 }
 .nav__item {
-  width: 150px;
+  width: 200px;
   text-align: left;
 }
 .footer__btn {
