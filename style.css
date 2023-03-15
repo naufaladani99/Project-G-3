@@ -182,7 +182,7 @@ a:active {
 .films {
   display: grid;
   grid-template-columns: 200px 200px 200px 200px;
-  gap: 100px;
+  gap: 120px;
   row-gap: 75px;
   /* grid-template-columns: repeat(4); */
   /* flex-wrap: wrap; */
