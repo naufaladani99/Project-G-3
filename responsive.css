@@ -1,0 +1,103 @@
+@media (max-width: 1000px) {
+  .fi-film img {
+    width: 200px;
+    height: 250px;
+  }
+
+  /* css untuk body */
+  .films {
+    grid-template-columns: 180px 180px 180px;
+    gap: 100px;
+    row-gap: 1px;
+  }
+  .message-container {
+    font-size: 15px;
+  }
+  .deskripsi {
+    margin-right: 50px;
+    width: 420px;
+  }
+  .nav__item {
+    font-size: 15px;
+  }
+  .footer__nav {
+    margin: auto;
+  }
+  .nav__title {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .footer {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 670px) {
+  .body {
+    margin: 0 auto;
+    /* width: 100px; */
+    /* padding-left: 5%;
+          padding-right: 5%; */
+    /* padding-bottom: 80px; */
+  }
+
+  .top-img-wrapper {
+    position: relative;
+  }
+
+  .caption {
+    font-size: 18px;
+    color: white;
+    text-align: left;
+    /* position: absolute; */
+    /* padding-left: 0px; */
+    /* margin-right: 1000 px; */
+    display: block;
+    top: 1px;
+  }
+
+  .caption h2,
+  p {
+    display: none;
+    /* margin-top: 10px;
+      margin-bottom: -100px; */
+  }
+
+  img {
+    border-radius: 0;
+  }
+
+  /* rekomendasi film populer */
+  .title h1 {
+    font-size: 15px;
+    font-weight: normal;
+  }
+
+  .container {
+    margin-top: 100px;
+  }
+
+  .films {
+    grid-template-columns: 190px;
+    gap: 50px;
+    row-gap: 7px;
+  }
+
+  .fi-film img {
+    width: 200px;
+    height: 250px;
+  }
+
+  /* css untuk body */
+  .films {
+    grid-template-columns: 180px;
+    gap: 100px;
+    row-gap: 70px;
+  }
+
+  /* .deskripsi{
+          width   : 400px;
+          text-align: center;
+          margin: auto
+      } */
+}
