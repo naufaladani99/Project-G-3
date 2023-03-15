@@ -130,7 +130,7 @@
     /* gap: 0px; */
     row-gap: 7px;
     width: fit-content;
-    margin: 0 auto;
+    margin: 0 100px 0 80px;
   }
 
   .fi-film img {
