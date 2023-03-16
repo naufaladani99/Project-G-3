@@ -25,9 +25,23 @@ body {
   opacity: 1;
   width: 100%;
   background-color: #0a0c0f;
+  /* sementara */
+  /* background-color: rgb(226, 226, 93); */
   color: #fff;
   height: 100px;
   display: flex;
+  float: left;
+}
+
+.side-bar {
+  display: none;
+}
+.header-list span {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* display: none; */
 }
 
 .logo {
@@ -42,10 +56,13 @@ body {
   padding: 40px 10px;
   text-align: center;
 }
-
+.tombol-menu p {
+  background-color: black;
+}
 .tombol-menu {
   color: gray;
-  background-color: #0a0c0f;
+  /* background-color: #0a0c0f; */
+  /* background-color: rgb(255, 255, 255); */
   border: none;
   cursor: pointer;
   font-size: 16px;
@@ -112,11 +129,11 @@ a:hover {
   color: white;
   text-decoration: none;
   font-family: sans-serif;
-  color: white;
+  /* color: white; */
   opacity: 1;
 }
 a:active {
-  color: white;
+  /* color: white; */
   text-decoration: none;
   font-family: sans-serif;
   color: green;
@@ -137,7 +154,7 @@ a:active {
   cursor: pointer;
 } */
 .search {
-  padding: 0px 0px;
+  padding: 0px 5px;
   margin-left: 100px;
   position: relative;
 }
@@ -151,9 +168,10 @@ a:active {
 }
 .icon-search {
   width: 120px;
+  color: #000000;
   position: absolute;
   left: 150px;
-  top: 15px;
+  top: 12px;
 }
 /* .bulat { */
 /* color: aqua; */
@@ -182,7 +200,7 @@ a:active {
 .films {
   display: grid;
   grid-template-columns: 200px 200px 200px 200px;
-  gap: 120px;
+  gap: 100px;
   row-gap: 75px;
   /* grid-template-columns: repeat(4); */
   /* flex-wrap: wrap; */
@@ -246,46 +264,39 @@ img {
 }
 
 /* form */
-/* .form {
-  font-size: 28px;
-  padding: 15px 50px;
-  margin: 100px 0;
+
+.section-form {
+  /* content: "";
+  display: table;
+  clear: both; */
   width: 100%;
-}
-.form h3 {
-  font-size: 20px;
-  margin-top: 50px;
-  padding-right: 50px;
-  border-bottom: 2px solid grey;
-  padding-bottom: 10px;
-  font-family: "Quicksand", sans-serif;
-}
-.form p {
-  font-size: 15px;
-  font-family: "Quicksand", sans-serif;
-  font-weight: bold;
-}
-textarea {
-  margin-top: 10px;
-}
-.form input,
-textarea {
-  display: block;
-}
-.form input {
-  width: 350px;
-  margin: 15px 0;
-} */
+  display: flex;
+  /* display: flex; */
+  /* padding: 30px; */
 
-/* footer */
-.message-container {
-  /* problemmmmmmmmmmmmmmmmmmmmmmmm */
-  /* width: fit-content; */
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 20px;
+  margin-bottom: 30px;
+}
+.deskripsi p {
+  font-size: 18px;
+}
+.column,
+column2 {
+  float: left;
+  /* width: 50%; */
+  padding: 10px;
 }
 
+.section-form {
+  justify-content: center;
+}
+
+.column2 {
+  float: right;
+  width: 40%;
+  padding: 10px;
+  height: 500px;
+  margin-left: 40px;
+}
 .deskripsi {
   /* problemmmmmmmmmmmmmmmmmmmmmmmm */
   /* width: auto; */
@@ -293,6 +304,169 @@ textarea {
   font-family: "Quicksand", sans-serif;
   /* padding-top: 50px; */
   margin-right: 100px;
+  margin-top: 50px;
+}
+
+/* footer */
+.message-container {
+  /* problemmmmmmmmmmmmmmmmmmmmmmmm */
+  /* width: fit-content; */
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  /* font-size: 100px; */
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 30px;
+  color: #777;
+  background: #000000;
+}
+
+.feedback {
+  /* max-width: 400px;
+  width: 40%; */
+  /* padding-right: 80px; */
+  width: 500px;
+  margin: 20px;
+  /* float: left; */
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  font-family: "Quicksand", sans-serif;
+
+  background: #000000;
+  padding: 25px;
+  margin: 50px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #4caf50;
+  color: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+  background: #43a047;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+  text-align: center;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+
+footer {
+  width: 100%;
 }
 
 .footer {
@@ -352,8 +526,7 @@ textarea {
 
 .footer-list {
   display: grid;
-  padding-top: 50px;
-  padding-bottom: 50px; /* border-color: rebeccapurple; */
+  padding-bottom: 40px; /* border-color: rebeccapurple; */
 }
 
 .footer__nav {
@@ -384,7 +557,7 @@ textarea {
   border-top: 2px solid #282a2c;
   padding-top: 15px;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
   color: #999;

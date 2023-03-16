@@ -7,6 +7,8 @@
     opacity: 1;
     max-width: 1000px;
     background-color: #0a0c0f;
+    /* sementara */
+    /* background-color: yellow; */
     color: #fff;
     height: 150px;
     display: flex;
@@ -26,7 +28,7 @@
     row-gap: 55px;
   }
   a:hover {
-    color: white;
+    /* color: white; */
     text-decoration: none;
     font-family: sans-serif;
     color: white;
@@ -55,6 +57,9 @@
   }
 }
 
+/* TAMPILAN HP
+________________________________________________ */
+
 @media (max-width: 670px) {
   /* tinggi header */
   .header {
@@ -64,9 +69,28 @@
     opacity: 1;
     max-width: 670px;
     background-color: #0a0c0f;
+    /* sementara */
+    /* background-color: yellow; */
     color: #fff;
-    height: 150px;
+    height: 100px;
     display: flex;
+  }
+  .header-list span {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: block;
+  }
+  .header-list {
+    /* padding-top: 50px; */
+    display: none;
+  }
+
+  .menu-icon {
+    padding-top: 35px;
+    display: block;
+    float: right;
   }
 
   .search {
@@ -166,6 +190,7 @@
   .fi-film img {
     width: 200px;
     height: 250px;
+    border-radius: 10px;
   }
 
   /* css untuk body */
@@ -174,6 +199,7 @@
     grid-template-columns: 180px;
     gap: 100px;
     row-gap: 60px;
+    /* margin-left: 30px; */
   }
   a:hover {
     color: white;
@@ -182,6 +208,7 @@
     color: white;
     opacity: 1;
   }
+  /* css untuk form */
 
   /* .deskripsi{
           width   : 400px;

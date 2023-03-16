@@ -31,35 +31,47 @@
           </a>
         </div>
         <div class="header-list">
+          <div class="side-bar">
+            <span class="fa fa-bars menu-icon"></span>
+          </div>
           <ul>
             <li><a href="#">Rekomendasi</a></li>
             <li><a href="#">Drama</a></li>
+            <li>
+              <div class="dropdown">
+                <button class="tombol-menu"><p>Lebih Banyak</p></button>
+                <div class="dropdown-child">
+                  <a href="#">K-Drama</a>
+                  <a href="#">Film</a>
+                  <a href="#">Anime</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="search">
+                <input
+                  class="detail-search"
+                  type="search"
+                  placeholder="Avenger"
+                />
+                <svg
+                  class="icon-search"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-search"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                  />
+                </svg>
+                <span class="border-search"></span>
+              </div>
+            </li>
           </ul>
-          <div class="dropdown">
-            <button class="tombol-menu"><p>Lebih Banyak</p></button>
-            <div class="dropdown-child">
-              <a href="#">K-Drama</a>
-              <a href="#">Film</a>
-              <a href="#">Anime</a>
-            </div>
-          </div>
-          <div class="search">
-            <input class="detail-search" type="search" placeholder="Avenger" />
-            <svg
-              class="icon-search"
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-search"
-              viewBox="0 0 16 16"
-            >
-              <path
-                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
-              />
-            </svg>
-            <span class="border-search"></span>
-          </div>
+
           <!-- <div class="bulat">
             <svg
               class="icon-search"
@@ -225,7 +237,7 @@
             alt=""
           />
           <h3 class="judul">I Belonged To Your World</h3>
-          <p class="deskripsi-film">FULL16 EPISODE</p>
+          <p class="deskripsi-film">FULL 16 EPISODE</p>
         </div>
         <div class="fi-film">
           <img
@@ -278,22 +290,84 @@
         </div>
       </div>
     </div>
-
+    <!-- tambah div -->
+    <div class="section-form">
+      <div class="feedback">
+        <form id="contact" action="" method="post">
+          <h3>Feedback Form</h3>
+          <h4>Berikan ulasan :</h4>
+          <fieldset>
+            <input
+              placeholder="Your name"
+              type="text"
+              tabindex="1"
+              required
+              autofocus
+            />
+          </fieldset>
+          <fieldset>
+            <input
+              placeholder="Your Email Address"
+              type="email"
+              tabindex="2"
+              required
+            />
+          </fieldset>
+          <fieldset>
+            <input
+              placeholder="Your Phone Number (optional)"
+              type="tel"
+              tabindex="3"
+              required
+            />
+          </fieldset>
+          <fieldset>
+            <input
+              placeholder="Your Web Site (optional)"
+              type="url"
+              tabindex="4"
+              required
+            />
+          </fieldset>
+          <fieldset>
+            <textarea
+              placeholder="Type your message here...."
+              tabindex="5"
+              required
+            ></textarea>
+          </fieldset>
+          <fieldset>
+            <button
+              name="submit"
+              type="submit"
+              id="contact-submit"
+              data-submit="...Sending"
+            >
+              Submit
+            </button>
+          </fieldset>
+          <p class="copyright">
+            Designed by
+            <a>G3</a>
+          </p>
+        </form>
+      </div>
+      <div class="deskripsi column2">
+        <p>
+          ### merupakan situs penyedia layanan streaming film dan serial tv
+          gratis. ### berusaha untuk menyediakan layanan streaming gratis untuk
+          selamanya kepada para rakyat Indonesia yang belum mampu berlangganan
+          layanan premium streaming seperti yang disebut diatas. Perlu
+          diperhatikan ### tidak menyediakan film maupun serial tv dari negara
+          Indonesia.
+        </p>
+      </div>
+    </div>
+    <!-- tutup div -->
     <!-- kaki -->
     <footer>
       <div class="footer">
         <div class="message-container">
-          <div class="deskripsi">
-            <p>
-              ### merupakan situs penyedia layanan streaming film dan serial tv
-              gratis. ### berusaha untuk menyediakan layanan streaming gratis
-              untuk selamanya kepada para rakyat Indonesia yang belum mampu
-              berlangganan layanan premium streaming seperti yang disebut
-              diatas. Perlu diperhatikan ### tidak menyediakan film maupun
-              serial tv dari negara Indonesia.
-            </p>
-          </div>
-
           <div class="footer-list">
             <ul class="footer__nav">
               <div class="nav__item">
